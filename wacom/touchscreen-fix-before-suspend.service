@@ -1,0 +1,10 @@
+[Unit]
+Description=Disable touchscreen before resume
+Before=suspend.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/rmmod wacom
+
+[Install]
+WantedBy=suspend.target

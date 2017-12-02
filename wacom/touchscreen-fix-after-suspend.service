@@ -1,0 +1,10 @@
+[Unit]
+Description=Enable touchscreen after resume
+After=suspend.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/modprobe wacom
+
+[Install]
+WantedBy=suspend.target

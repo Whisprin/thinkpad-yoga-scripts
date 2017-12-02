@@ -1,6 +1,10 @@
 thinkpad-yoga-scripts
 =====================
 
+# Yoga 12
+Wacom touchscreen and digitizer fix to reenable touchscreen after suspend / sleep
+
+
 A collection of scripts and systemd units to restore functionality of
 the Lenovo ThinkPad Yoga S1.
 
